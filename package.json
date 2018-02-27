@@ -1,0 +1,32 @@
+{
+  "name": "ci-parse",
+  "version": "1.0.0",
+  "description": "Codeigniter with Parse as backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nafplann",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "latest",
+    "gulp-concat-css": "latest",
+    "gulp-minify": "latest",
+    "gulp-remove-empty-lines": "^0.1.0",
+    "gulp-trimlines": "^1.0.1",
+    "gulp-uglify": "latest",
+    "gulp-whitespace": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}

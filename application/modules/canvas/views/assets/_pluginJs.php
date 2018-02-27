@@ -1,0 +1,11 @@
+<script src="<?php echo base_url('assets/plugins/gojs/release/go-mods.js'); ?>"></script>
+<script src="<?php echo base_url('assets/plugins/lodash/lodash.core.js'); ?>"></script>
+<script src="<?php echo base_url('assets/plugins/chosen/chosen.jquery.js'); ?>"></script>
+<script src="<?php echo base_url('assets/plugins/chosen/chosen-readonly.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/plugins/chart.js/Chart.bundle.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/plugins/chart.js/samples/utils.js'); ?>"></script>
+<script src="<?php echo base_url('assets/plugins/d3js/d3.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/plugins/venn.js/venn.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/plugins/bootstrap-tagsinput/dist/bootstrap-tagsinput-mods.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/plugins/ion.rangeslider/js/ion-rangeSlider/ion.rangeSlider.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/plugins/gojs/extensions/TextEditorSelectBox.js'); ?>"></script>

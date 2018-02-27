@@ -1,0 +1,23 @@
+{
+  "name": "parse-php-sdk",
+  "scripts": {
+    "test": "./vendor/bin/phpunit",
+    "test:coverage": "./vendor/bin/phpunit --coverage-clover=coverage.xml",
+    "test-stream:coverage": "./vendor/bin/phpunit --bootstrap=./tests/bootstrap-stream.php --coverage-clover=coverage.xml",
+    "lint": "./vendor/bin/phpcs --standard=./phpcs.xml.dist ./src/Parse ./tests/Parse",
+    "lint:fix": "./vendor/bin/phpcbf --standard=./phpcs.xml.dist ./src/Parse ./tests/Parse",
+    "start" : "./node_modules/parse-server-test/run-server",
+    "stop"  : "./node_modules/parse-server-test/stop-server",
+    "document-check"  : "./vendor/bin/phpdoc -d ./src/ --template=checkstyle",
+    "document" : "./vendor/bin/phpdoc -d ./src/ --title 'Parse PHP SDK API Reference' --template='responsive-twig'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parse-community/parse-php-sdk"
+  },
+  "license": "https://github.com/parse-community/parse-php-sdk/blob/master/LICENSE",
+  "homepage": "https://github.com/montymxb/parse-server-test#readme",
+  "dependencies": {
+    "parse-server-test": "*"
+  }
+}
